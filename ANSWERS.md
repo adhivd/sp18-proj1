@@ -28,7 +28,7 @@ The path needed the trainer id that the pokemon belonged to so that it knows whe
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 
-
+The application controller is listening for errors, and though I had to change @pokemon to pok (since that's what I used), that's where the errors were being caught.
 
 # Give us feedback on the project and decal below!
 
